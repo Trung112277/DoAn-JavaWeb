@@ -41,7 +41,7 @@
                                         <div class="col-md-7">
                                             <div class="price">
                                                 <span class="group-price">
-                                                    <p class="price1">$${orderItem.price}</p>
+                                                    <p class="price1">${orderItem.price}</p>
                                                     <form action="OrderServlet" method="post" class="quantity">
                                                         <input type="hidden" name="productId" value="${orderItem.productId}"/>
                                                         <input type="hidden" name="action" value="update"/>
